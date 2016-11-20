@@ -3,6 +3,7 @@
     width: 500% !important;
     height: 500% !important;
 }*/
+
 #user-lists .list.staff .group {
     background: linear-gradient(to right,rgba(0, 0, 0, 0) 0,rgba(0, 0, 0, 1) 100%) !important;
 }
@@ -34,10 +35,10 @@
     background: rgba(10, 10, 10, 0.89) !important;
 }
 #user-lists .list .user:hover {
-    background: linear-gradient(to right,rgba(255, 118, 118, 0) 0,rgba(255, 0, 194, 0.27) 100%) !important;
+    background: linear-gradient(to right,rgba(255, 118, 118, 0) 0,rgba(255, 75, 0, 0.27) 100%) !important;
 }
 #waitlist .list .user {
-    background: linear-gradient(to right,rgba(255, 118, 118, 0) 0,rgba(255, 0, 194, 0.13) 100%) !important;
+    background: linear-gradient(to right,rgba(255, 118, 118, 0) 0,rgba(255, 75, 0, 0.27) 100%) !important;
 }
 .app-right .friends {
     background: none !important;
@@ -71,10 +72,10 @@
     border-left: #cc2f26 3px solid;
 }
 #chat .emote .from {
-     color: #ac76ff !important;
+     color: #CC2F26 !important;
 }
 #chat .emote {
-    border-left: rgba(174, 69, 189, 1) 3px solid !important;
+    border-left: rgba(189, 83, 13, 1) 3px solid !important;
     background-color: rgba(76, 93, 119, 0.22) !important;
 }
 #chat-messages .emote .icon {
@@ -83,13 +84,13 @@
 #chat .emote .text {
     font-style: normal;
     font-weight: bold;
-    color: #ac76ff;
+    color: #f29c7a;
 }
 #footer {
     background: linear-gradient(to bottom,rgba(0, 0, 0, 0.25) 0,rgba(0, 0, 0, 0.75) 100%);
 }
 #playlist-button {
-    background: linear-gradient(to bottom,#FF5CDE 0,#5700FF 100%);
+    background: linear-gradient(to bottom,#CC5526 0,#CC2F26 100%);
 }
 .social-menu .icon-twitter,.social-menu .icon-facebook {
     opacity: 1;
@@ -129,21 +130,23 @@ background: #121214;
 border-radius: 8px;
 /*border-left-width: 4px;*/
 }
-/*#dj-button.is-quit .left {
+/*
+#dj-button.is-quit .left {
 border-left: 3px solid #f46b40;
 }
 #dj-button.is-leave .left {
 border-left: 3px solid #f46b40;
 }
 #dj-button.is-wait .left {
-border-left: 3px solid #00b5e6;
+border-left: 3px solid #f46b40;
 }
 #dj-button.is-locked .left {
-border-left: 3px solid #734ba9;
+border-left: 3px solid #f46b40;
 }
 #dj-button.is-full .left {
-border-left: 3px solid #CCCCCC;
-}*/
+border-left: 3px solid #f46b40;
+}
+*/
 #dj-button {
 background: #222224;
 border-radius: 8px;
@@ -152,14 +155,15 @@ border-radius: 8px;
 background: #222224;
 }
 #woot .bottom, #woot.selected {
-background: #90ad2f;
+background: #3a6b0f;
 }
 #grab .bottom, #grab.selected {
-background: #aa74ff;
+background: #571789;
 }
 #meh .bottom, #meh.selected {
-background: #ff00ff;
+background: #781c16;
 }
+/*-------------------------------*/
 .row:hover {
     background: linear-gradient(to right,rgba(255, 118, 118, 0) 0,rgba(41, 48, 124, 0.27) 100%) !important;
 }
@@ -226,3 +230,94 @@ background: #ff00ff;
   animation: fadein 0.3s;
 }
 
+/*Custom*/
+#rcs-progress-container .bar {
+	background-color: #c83e20 !important;
+}
+
+#playlist-menu .menu .row.selected {
+	background: #963d14cc !important;
+}
+
+.media-list .row.now-playing {
+	border-bottom: #a2493b 2px solid !important;
+	background: #bd391c !important;
+}
+
+.media-list .row.selected {
+	background: #4d2521 !important;
+}
+
+#playlist-menu .menu .row .count {
+	color: #e7a97c !important;
+}
+
+#playlist-activate-button {
+	background: #8d522c !important;
+}
+
+#playlist-activate-button span {
+	color: #fff !important;
+}
+
+#chat .rs-log-purple, #chat .rs-log-user-grab {
+	color: #f0b69b !important;
+}
+
+#chat .welcome {
+	color: #ed3232 !important;
+}
+
+#room-settings-menu .item.selected {
+	background: #963d14cc !important;
+}
+
+#dj-button .left {
+	background: linear-gradient(to bottom,#e66d21 0,#dd2700 100%) !important;
+}
+
+.icon-grab {
+    background: url('http://i.imgur.com/fsvyThi.png') !important;
+	background-position: -140px -280px !important;
+}
+
+.icon-next-track {
+    background: url('http://i.imgur.com/fsvyThi.png') !important;
+	background-position: -35px -35px !important;
+}
+
+.icon-check-blue {
+    background: url('http://i.imgur.com/fsvyThi.png') !important;
+	background-position: -140px -350px !important;
+}
+
+.icon-check-purple {
+    background: url('http://i.imgur.com/fsvyThi.png') !important;
+	background-position: -35px -140px !important;
+}
+
+.icon-check-circle {
+    background: url('http://i.imgur.com/fsvyThi.png') !important;
+	background-position: 0 -140px !important;
+}
+
+.icon-staff {
+    background: url('http://i.imgur.com/fsvyThi.png') !important;
+	background-position: -35px -210px !important;
+}
+
+.icon-chat-cohost, .icon-chat-host {
+    background: url('http://i.imgur.com/fsvyThi.png') !important;
+	background-position: -35px -350px !important;
+}
+
+.icon-chat-dj {
+    background: url('http://i.imgur.com/fsvyThi.png') !important;
+	background-position: -85px -350px !important;
+}
+
+#user-lists .header .button.staff.selected {
+	border-bottom: 1px solid #ffb076 !important;
+}
+
+/* http://i.imgur.com/fsvyThi.png */
