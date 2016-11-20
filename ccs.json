@@ -1,6 +1,6 @@
 ﻿{
     "room": 					"Community Name",
-    "author": 					"Author",
+    "author": 				"Author",
     "icon": 					null,
     "css": 						null,
     "rules": {
@@ -16,7 +16,7 @@
     "ccc": {
         "admin":                "#42A5DC",
         "ambassador":           "#84B423",
-        "host":                 "#42A5DC",
+        "host":                 "#7FF60B",
         "cohost":               "#F3508F",
         "manager":              "#F3508F",
         "bouncer":              "#F3508F",
