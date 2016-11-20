@@ -1,6 +1,6 @@
 ﻿{
-    "room": 					"Community Name",
-    "author": 				"Author",
+    "room": 					"Phoenix Legacy",
+    "author": 				"Clefaz",
     "icon": 					null,
     "css": 						null,
     "rules": {
@@ -28,14 +28,14 @@
     },
     "images": {
         "background":           "https://cdn.radiant.dj/rcs/bg/16.png",
-        "playback":             null,
-        "admin":                "https://cdn.radiant.dj/rcs/icons/radiant/admin.png",
-        "ambassador":           "https://cdn.radiant.dj/rcs/icons/radiant/ambassador.png",
-        "host":                 null,
-        "cohost":               "https://cdn.radiant.dj/rcs/icons/radiant/cohost.png",
-        "manager":              "https://cdn.radiant.dj/rcs/icons/radiant/manager.png",
-        "bouncer":              "https://cdn.radiant.dj/rcs/icons/radiant/bouncer.png",
-        "rdj":                  "https://cdn.radiant.dj/rcs/icons/radiant/residentdj.png",
+        "playback":             "http://i.imgur.com/D28rLBK.png",
+        "admin":                "http://i.imgur.com/x65Wlc1.png",
+        "ambassador":           "http://i.imgur.com/5cmIGKW.png",
+        "host":                 "http://i.imgur.com/x65Wlc1.png",
+        "cohost":               "http://i.imgur.com/V20Imqk.png",
+        "manager":              "http://i.imgur.com/BrVNMyF.png",
+        "bouncer":              "http://i.imgur.com/k4bTiX1.png",
+        "rdj":                  "http://i.imgur.com/0WBiuft.png",
         "subscriber":           null,
         "silversubscriber":     "https://cdn.radiant.dj/rcs/icons/radiant/subscriber.png"
     },
