@@ -356,4 +356,12 @@ i.bdg.bdg-animal-o05.o {
 	background: linear-gradient(to bottom,#cc5426 0,#cc2f26 100%) !important;
 }
 
+#grab .bottom, #grab.selected {
+	background: #893B17 !important;
+}
+
+.votes-rs .title.grab {
+	background: #D55A21 !important;
+}
+
 /* http://i.imgur.com/fsvyThi.png */
