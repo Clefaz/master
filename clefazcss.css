@@ -320,4 +320,40 @@ background: #781c16;
 	border-bottom: 1px solid #ffb076 !important;
 }
 
+i.bdg.bdg-animal-o05.o {
+	background: url("https://dl.dropboxusercontent.com/s/3e5mmxroabvao5t/Snake.gif") !important;
+}
+
+#chat .rs-log-green, #chat .rs-log-user-friend-join, #chat .rs-log-user-woot {
+	color: #44ad2f !important;
+}
+
+.votes-rs .title.grab {
+	background: #ff602d !important;
+}
+
+#grab .bottom, #grab.selected {
+	background: #8D3519 !important;
+}
+
+.row:hover {
+	background: linear-gradient(to right,rgba(255, 118, 118, 0) 0,rgba(124, 97, 41, 0.3) 100%) !important;
+}
+
+#playlist-shuffle-button:hover {
+	background: linear-gradient(to bottom,#cc5426 0,#cc2f26 100%) !important;
+}
+
+#chat .moderation, #chat .moderation .from {
+	color: #F44F1E !important;
+}
+
+#chat .from.staff, #chat .from.dj {
+	color: #F44F1e !important;
+}
+
+#playlist-import:hover {
+	background: linear-gradient(to bottom,#cc5426 0,#cc2f26 100%) !important;
+}
+
 /* http://i.imgur.com/fsvyThi.png */
