@@ -2,7 +2,7 @@
     "room": 					"Phoenix Legacy",
     "author": 				"Clefaz",
     "icon": 					null,
-    "css": 						"https://cdn.rawgit.com/Clefaz/master/master/clefazcss.css",
+    "css": 						"https://cdn.rawgit.com/Clefaz/master/629a0c42dd1a539a3fea282b3cf448759e04a242/clefazcss.css",
     "rules": {
         "allowAutorespond":     true,
         "allowAutowoot":        true,
