@@ -1,0 +1,45 @@
+{
+    "room": 					"Plage Abandonnee",
+    "author": 				"Clefaz",
+    "icon": 					null,
+    "css": 						"https://cdn.rawgit.com/Clefaz/master/629a0c42dd1a539a3fea282b3cf448759e04a242/clefazcss.css",
+    "rules": {
+        "allowAutorespond":     true,
+        "allowAutowoot":        true,
+        "allowAutojoin":        false,
+        "allowAutograb":        true,
+        "allowSmartVote":       true,
+        "allowEmotes":          true,
+        "allowShowingMehs":     true,
+        "forceSmartVote":       false
+    },
+    "ccc": {
+        "admin":                "#F6390B",
+        "ambassador":           "#84B423",
+        "host":                 "#F6390B",
+        "cohost":               "#F6390B",
+        "manager":              "#F6390B",
+        "bouncer":              "#F6650B",
+        "rdj":                  "#F6890B",
+        "subscriber":           "#F6890B",
+        "silversubscriber":     "#F6890B",
+        "friend":               "#3EF60B",
+        "user":                 "#FFFFFF"
+    },
+    "images": {
+        "background":           "https://cdn.radiant.dj/rcs/bg/2k15beach.jpg",
+        "playback":             "http://i.imgur.com/4fnv4sc.png",
+        "admin":                null,
+        "ambassador":           null,
+        "host":                 null,
+        "cohost":               null,
+        "manager":              null,
+        "bouncer":              null,
+        "rdj":                  null,
+        "subscriber":           null,
+        "silversubscriber":     null
+    },
+    "emotes": {
+    	"emote_name": "https://cdn.radiant.dj/rcs/icons/test_custom.png"
+    }
+}
