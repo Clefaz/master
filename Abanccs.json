@@ -37,7 +37,7 @@
         "bouncer":              null,
         "rdj":                  null,
         "subscriber":           null,
-        "silversubscriber":     null,
+        "silversubscriber":     null
     },
     "emotes": {
     	"emote_name": "https://cdn.radiant.dj/rcs/icons/test_custom.png"
