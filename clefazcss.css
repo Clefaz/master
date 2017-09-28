@@ -122,7 +122,7 @@
 #user-panel .score {
     background: rgba(28, 31, 37, 0.59);
 }
-#dj-button.is-locked .left,#dj-button.is-full .left,#vote .crowd-response.disabled .bottom {
+#button.is-locked .left,#dj-button.is-full .left,#vote .crowd-response.disabled .bottom {
     background: #222224;
 }
 #dj-button.is-quit .left, #dj-button.is-leave .left, #dj-button.is-wait .left, #dj-button.is-locked .left, #dj-button.is-full .left {
@@ -151,6 +151,50 @@ border-left: 3px solid #f46b40;
 background: #222224;
 border-radius: 8px;
 }
+
+/************/
+
+#dj-button {
+    width: 158px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+#dj-button span {
+    margin-left: 5px;
+}
+#dj-button .left{
+    height: 61px;
+    border-radius: 4px;
+    width: 158px;
+    transition: 0.3s;
+}
+#dj-button .left .icon{
+    left: 65px;
+}
+#dj-button:not(.is-locked):hover .left {
+    top: -53px;
+}
+#dj-button.is-locked {
+    cursor: no-drop;
+}
+#dj-button.is-full .left, #dj-button.is-locked .left {
+    background:
+    linear-gradient(rgba(255,255,255,.1), rgba(0,0,0,.1)),
+    #484848
+}
+#dj-button.is-leave .left, #dj-button.is-quit .left {
+    background:
+    linear-gradient(rgba(255,255,255,.1), rgba(0,0,0,.1)),
+    #c42e3b
+}
+#dj-button .left {
+    background:
+    linear-gradient(rgba(255,255,255,.1), rgba(0,0,0,.1)),
+    #25b961
+}
+
+/************/
+
 #vote .crowd-response {
 background: #222224;
 }
